@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homemade Cosmetics</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Homemade Cosmetics</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <img src="product.jpg" alt="Banner Image" width="100%">
+            <div class="hero-content" style="font-size:30px;">
+                <h2>Welcome to Homemade Cosmetics</h2>
+                <p>Natural beauty products made just for you.</p>
+                <a href="products.html" class="btn" style="font-size: 30px; color: black;">Shop Now</a>
+            </div>
+        </section>
+
+        <section id="introduction">
+            <h2>About Our Brand</h2>
+            <p>At Homemade Cosmetics, we believe in the power of nature. Our products are handcrafted with the finest organic ingredients to ensure you get the best quality care.</p>
+        </section>
+
+        <section id="featured-products">
+            <h2>Featured Products</h2>
+            <div class="product">
+                <img src="face_cream.webp" alt="Natural Face Cream" width="450" height="600">
+                <h3>Natural Face Cream</h3>
+                <p>$25.00</p>
+                <!-- <button>Add to Cart</button> -->
+                <button class="buy-now" data-product="Natural Face Cream" data-price="25.00">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="herbal_shampoo.avif" alt="Herbal Shampoo">
+                <h3>Herbal Shampoo</h3>
+                <p>$18.00</p>
+                <!-- <button>Add to Cart</button> -->
+                <button class="buy-now" data-product="Herbal Shampoo" data-price="18.00">Buy Now</button>
+            </div><br>
+            <div class="product">
+                <img src="lip_balm.jpg" alt="Organic Lip Balm" width="450" height="700">
+                <h3>Organic Lip Balm</h3>
+                <p>$10.00</p>
+                <button class="buy-now" data-product="Organic Lip Balm" data-price="10.00">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="body_lotion.jpg" alt="Soothing Body Lotion" width="450" height="700">
+                <h3>Soothing Body Lotion</h3>
+                <p>$20.00</p>
+                <button class="buy-now" data-product="Soothing Body Lotion" data-price="20.00">Buy Now</button>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial">
+                <p>"I love the natural face cream! My skin feels amazing."</p>
+                <h4>– Jane Doe</h4>
+            </div>
+            <div class="testimonial">
+                <p>"The herbal shampoo has done wonders for my hair."</p>
+                <h4>– John Smith</h4>
+            </div>
+        </section>
+
+        <section id="newsletter">
+            <h2>Subscribe to Our Newsletter</h2>
+            <form action="process_newsletter.php" method="POST">
+                <input type="email" name="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="social-media">
+            <a href="https://www.facebook.com"><img src="Facebook_icon.jpg" alt="Facebook" width="50" height="50"></a>
+            <a href="https://www.instagram.com"><img src="insta_icon.jpg" alt="Instagram" width="50" height="50"></a>
+        </div>
+        <p>Contact us: info@homemadecosmetics.com | (123) 456-7890</p>
+        <p>&copy; 2024 Homemade Cosmetics. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
